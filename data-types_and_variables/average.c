@@ -4,6 +4,8 @@
  * Author: Daniel Yohannes
 */
 #include <stdio.h>
+
+
 int main(void)
 {
 double x, y, z, avg;
@@ -18,5 +20,6 @@ avg = (x + y + z) / 3;
     scanf("%lf" ,&z);
     avg = (x + y + z) / 3;
     printf("The average of %.2lf, %.2lf and %.2lf is : %.2lf \n" ,x ,y ,z ,avg);
+    
     return(0);
 }
